@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: SI.Workspace.Core
+Bundle-SymbolicName: SI.Workspace.Core;singleton:=true
+Bundle-Vendor: %Bundle-Vendor.0
+Bundle-Activator: SI.Workspace.Core.Activator
+Bundle-Version: 1.0.0.dev-version
+Bundle-Localization: plugin
+Bundle-ClassPath: .
+Eclipse-LazyStart: true
+Export-Package: fr.imag.adele.fede.workspace.si.core
+Import-Package: fr.imag.adele.packageinfo,
+ org.eclipse.core.runtime,
+ org.osgi.framework
+

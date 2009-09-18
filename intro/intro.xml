@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<introContent>
+    <extensionContent id="fr.imag.cadse.intro" style="tutorial.css" name="Java Development" path="tutorials/@">
+    <group style-id="content-group" id="frimagcadse-introLink-group" label="Create your tailor made IDE">
+           <link label="CADSE" url="http://cadse.imag.fr" id="frimagcadse-introLink" style-id="content-link">
+              <text>Learn how to use CADSE to develop an IDE for your activities.</text>
+           </link>
+         </group>
+    </extensionContent>
+</introContent>
