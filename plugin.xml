@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?eclipse version="3.2"?>
-<plugin>
+<?eclipse version="3.3"?>
+<plugin
+   version="3.3">
 
    <extension
          point="org.eclipse.help.toc">
@@ -27,8 +28,9 @@
    <extension
          point="org.eclipse.ui.intro.configExtension">
       <configExtension
-            configId="org.eclipse.ui.intro.universalConfig"
-            content="intro/intro.xml">
+            content="intro/intro.xml"
+            configId="org.eclipse.ui.intro.universalConfig">
       </configExtension>
    </extension>
+
 </plugin>
