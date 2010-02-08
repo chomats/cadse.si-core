@@ -1,38 +1,14 @@
 Manifest-Version: 1.0
-Export-Package: SI.Workspace.Core;version="1.0.0",fr.imag.adele.fede.w
- orkspace.si.core;version="1.0.0"
-iPOJO-Components: component { $immediate="false" $classname="fr.imag.a
- dele.fede.workspace.si.core.Core" $factory="fr.imag.adele.fede.worksp
- ace.si.core.Core" $architecture="true" manipulation { method { $name=
- "$init" }}}instance { $component="fr.imag.adele.fede.workspace.si.cor
- e.Core" $name="fr.imag.adele.cadse.si.workspace.core.instance" }
-Bundle-ClassPath: .
-Bundle-Name: fr.imag.adele.cadse.si.workspace.core
-Bundle-Localization: plugin
-Created-By: envsam & iPOJO & iPOJO & iPOJO & iPOJO & iPOJO & iPOJO & i
- POJO & iPOJO & iPOJO & iPOJO & iPOJO & iPOJO & iPOJO & iPOJO & iPOJO 
- & iPOJO & iPOJO & iPOJO & iPOJO & iPOJO & iPOJO & iPOJO & iPOJO & iPO
- JO & iPOJO & iPOJO & iPOJO & iPOJO & iPOJO & iPOJO & iPOJO & iPOJO & 
- iPOJO & iPOJO & iPOJO & iPOJO & iPOJO & iPOJO & iPOJO & iPOJO & iPOJO
-  & iPOJO & iPOJO & iPOJO & iPOJO & iPOJO & iPOJO & iPOJO & iPOJO & iP
- OJO & iPOJO & iPOJO & iPOJO & iPOJO & iPOJO & iPOJO & iPOJO & iPOJO &
-  iPOJO & iPOJO & iPOJO & iPOJO & iPOJO & iPOJO & iPOJO & iPOJO & iPOJ
- O & iPOJO & iPOJO & iPOJO & iPOJO & iPOJO & iPOJO & iPOJO & iPOJO & i
- POJO & iPOJO & iPOJO & iPOJO & iPOJO & iPOJO & iPOJO & iPOJO & iPOJO 
- & iPOJO & iPOJO & iPOJO & iPOJO & iPOJO & iPOJO & iPOJO & iPOJO & iPO
- JO & iPOJO & iPOJO & iPOJO & iPOJO & iPOJO & iPOJO & iPOJO
-Ant-Version: Apache Ant 1.7.0
-Bundle-Vendor: %Bundle-Vendor.0
-Eclipse-LazyStart: true
-ipojo-auto-start: true
-Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: Adele/LIG/ Grenoble University, France
+Private-Package: html.gettingstarted,html.reference,html.tasks,html.sa
+ mples,html,html.concepts,.,intro
+Built-By: chomats
+Build-Jdk: 1.6.0_17
+Bundle-Version: 2.3.0.SNAPSHOT
+Tool: Bnd-0.0.357
+Bundle-Name: fr.imag.adele.cadse.si.core
+Created-By: Apache Maven Bundle Plugin
 Bundle-ManifestVersion: 2
-Bundle-Description: Bundle fr.imag.adele.cadse.si.workspace.core
-Import-Package: org.osgi.service.log;version=1.3, org.eclipse.core.run
- time, org.apache.felix.ipojo.architecture;version=0.8.0, org.apache.f
- elix.ipojo;version=0.8.0, org.osgi.framework;version=1.4.0, SI.Worksp
- ace.Core;version=1.0.0, org.osgi.service.cm;version=1.2, fr.imag.adel
- e.fede.workspace.si.core;version=1.0.0
-Bundle-SymbolicName: fr.imag.adele.cadse.si.workspace.core;singleton:=
- true
+Bundle-DocURL: http://www-adele.imag.fr/
+Bundle-SymbolicName: fr.imag.adele.cadse.si.core;singleton:=true
 

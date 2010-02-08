@@ -1,0 +1,46 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>fr.imag.adele.cadse</groupId>
+  <artifactId>si.core</artifactId>
+  <packaging>bundle</packaging>
+  <name>fr.imag.adele.cadse.si.core</name>
+  <version>2.3.0-SNAPSHOT</version>
+  <parent>
+  	<artifactId>fr.imag.adele.cadse.parent</artifactId>
+  	<groupId>fr.imag.adele.cadse</groupId>
+  	<version>2.3.0-SNAPSHOT</version>
+  	<relativePath>../fr.imag.adele.cadse.parent</relativePath>
+  </parent>
+  <build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.felix</groupId>
+				<artifactId>maven-bundle-plugin</artifactId>
+				<extensions>true</extensions>
+				<configuration>
+					<instructions>
+						<Export-Package>!*</Export-Package>
+						<Include-Resource>
+							html=html,
+							intro=intro,
+about.html=about.html,
+about.ini=about.ini,
+about.properties=about.properties,
+build.properties=build.properties,
+cadse.gif=cadse.gif,
+LICENSE-2.0.txt=LICENSE-2.0.txt,
+plugin.properties=plugin.properties,
+plugin.xml=plugin.xml,
+toc.xml=toc.xml,
+tocconcepts.xml=tocconcepts.xml,
+tocgettingstarted.xml=tocgettingstarted.xml,
+tocreference.xml=tocreference.xml,
+tocsamples.xml=tocsamples.xml,
+toctasks.xml=toctasks.xml
+	            </Include-Resource>
+					</instructions>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>
